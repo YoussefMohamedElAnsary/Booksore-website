@@ -1,0 +1,35 @@
+.orderitem{
+width: 15vw;
+height: 5vw;
+}
+
+.book_name{
+color: #000;
+font-family: Inria Serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 1vw;
+}
+.qandp{
+color: #000;
+font-family: Inria Serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.quantity{
+
+margin-left: 2vw;
+}
+.price{
+
+margin-left: 3.5vw;
+}
+.ayhaga{
+
+margin-bottom: -1vw;
+}

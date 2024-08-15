@@ -1,0 +1,194 @@
+
+.backgrounddiv{
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    background-image: linear-gradient(0deg, rgba(238, 226, 225, 0.42) 0%, rgba(238, 226, 225, 0.42) 100%), url('../../components/assets/signup_background.jpeg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.booktown_title{
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    height: 70%;
+    flex-shrink: 0;
+    padding: 0;
+}
+
+.title_img{
+    margin-left:20%;
+    width:90%;
+    height:100%;
+}
+
+.containerr{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    position:absolute;
+    padding:0;
+    top:0;
+    right:0;
+    background: #9D8B70;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header{
+    color: #FFF;
+    font-family: Inria Serif;
+    font-size: 500%;
+    font-style: normal;
+    font-weight: 700%;
+    line-height: normal;
+    margin-bottom: 5%;
+}
+
+.username{
+    display: flex;
+    width: 70%;
+    height: 7%;
+    align-items: center;
+    border-radius: 16px;
+    background: #EEE2E1;
+    margin-bottom: 3vh;
+}
+
+.password{
+    display: flex;
+    width: 70%;
+    height: 7%;
+    align-items: center;
+    border-radius: 16px;
+    background: #EEE2E1;
+    margin-bottom: 3vh;
+}
+
+.address{
+    display: flex;
+    width: 70%;
+    height: 7%;
+    align-items: center;
+    border-radius: 16px;
+    background: #EEE2E1;
+    margin-bottom: 3vh;
+}
+
+.phone{
+
+    display: flex;
+    width: 70%;
+    height: 7%;
+    align-items: center;
+    border-radius: 16px;
+    background: #EEE2E1;
+    margin-bottom: 3vh;
+}
+
+.inputSignUp {
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
+    background-color: #EEE2E1;
+    color:#413F3FC2;
+    font-size: 140%;
+  }
+
+  .inputSignUp:focus {
+    outline: none;
+    border: none;
+  }
+  
+
+  .signin_container{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    color: #FFF;
+    font-family: Inria Serif;
+    font-size: 130%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 7%;  
+    align-items: center;
+  }
+
+  .signin_link{
+    color: black;
+    font-size: 130%;
+    margin-left: 5%;
+    text-decoration: underline;
+  }
+
+  .submit_registeration_login{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 70%;
+    height: 7%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+  }
+
+  .forgot_password_remember_me{
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    color: #FFF;
+    font-family: Inria Serif;
+    font-size: 130%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5%;
+  }
+
+  .welcome{
+    color: #FFF;
+    font-family: Inria Serif;
+    font-size: 300%;
+    font-style: normal;
+    font-weight: 400%;
+    line-height: normal;
+    margin-bottom: 5%;
+  }
+  .forgot_password{
+    margin-right: auto;
+  }
+
+  .checkbox_label{
+    margin-left: auto;
+  }
+
+  .signup_line{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    color: #000;
+    font-family: Inria Serif;
+    font-size: 200%;
+    font-weight: 200%;
+    align-items: center;
+  }
+
+  .Submit{
+    font-size: 140% ;
+    width: 100%;
+    height: 100%;
+    font-family: Inria Serif;
+  }

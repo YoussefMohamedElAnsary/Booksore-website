@@ -1,0 +1,13 @@
+.genrename{
+color: #000;
+font-family: Inria Serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.genrelistgenre{
+    height: 20vh;
+}

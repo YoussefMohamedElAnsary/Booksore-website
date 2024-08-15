@@ -1,0 +1,176 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden ;
+}
+.HomePageStylee{
+    background-color: #EEE2E1;
+   width: 100%;
+}
+.firstslideimg{
+    width:100%;
+    height: 18.5vw;
+    flex-shrink: 0;
+    position: absolute;
+}
+.firstslideimgstyle{
+position: relative;
+width:100%;
+height: 18.5vw;
+background: rgba(154, 133, 101, 0.60);
+backdrop-filter: blur(7.5px);
+text-align: center;
+}
+
+.slideimgtitle{
+color: #FFF;
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.45);
+font-family: Inria Serif;
+font-size: 80px;
+line-height: 18vw;
+text-decoration-line: underline;
+}
+.allslideimg{
+    margin-top: 2vw;
+    margin-bottom: 65px;
+    width: 100%;
+}
+
+.seeall{
+    text-decoration-line: underline;
+    color: #000;
+    font-family: Inria Serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 88vw;
+
+    /* position: relative; */
+}
+
+.headinggs{
+    margin-left: 5vw;
+color: #000;
+font-family: Inria Serif;
+font-size: 28px;
+font-weight: bold;
+/* line-height: normal; */
+text-decoration-line: underline;
+margin-right: 20vw;
+position:absolute;
+}
+
+.booksrowHome{    
+    display: flex;
+    margin-top: 2vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 2vw;
+}
+    
+.authorslideback{
+    width:100%;
+    /* flex-shrink: 0; */
+    position: absolute;
+ 
+}
+
+.authornamee{
+color: #000;
+font-family: Inria Serif;
+font-size: 70px;
+/* font-style: normal; */
+font-weight: 700;
+/* line-height: normal; */
+text-decoration-line: underline;
+position: relative;
+margin-left: 12vw;
+}
+.author_detailsslid{
+    margin-left: 12vw;
+    margin-top: 1vw;
+    width: 606px;
+    color: #000;
+    font-family: Inria Serif;
+    font-size: 28px;
+    line-height: normal;
+}
+.authorrPic{
+    position: absolute;
+    margin-left: 55vw;
+    margin-top: -23.8vw;
+    opacity: 100%;
+  
+}
+.authorslid{
+margin-top: 10vw;
+margin-bottom: 12vw;
+background: url(../../components/assets/Frame 21.png) center no-repeat;
+background-size: cover;
+}
+
+.CategoryRow{
+    display: flex;
+    gap:3vw;
+    margin-top: 2vw;
+    margin-left:6vw;
+    margin-bottom: 6vw;
+}
+
+.discount_img{
+    width: 46.7vw;
+    height:59vw;
+    /* flex-shrink: 0; */
+    position: absolute;
+    margin-left: 6vw;
+}
+
+.imgdis{
+    position:relative;
+    width: 124px;
+    height: 183px;
+    /* flex-shrink: 0; */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    /* margin-left: 36.2vw; */
+    /* top:-11.8vw; */
+}
+.imgbookdisRow1{
+    display: flex;
+    position: absolute;
+    margin-top: 23vw;
+    margin-left: 11vw;
+    gap:4.5vw;
+   
+}
+.imgbookdisRow2{
+    display: flex;
+    position: absolute;
+    margin-top: 37vw;
+    margin-left: 24vw;
+    gap:4.5vw; 
+}
+.childrenheading{
+    color: #000;
+    font-family: Inria Serif;
+    font-size: 28px;
+    font-weight: bold;
+    /* line-height: normal; */
+    text-decoration-line: underline;
+    /* margin-right: 80vw; */
+    position:absolute;
+    margin-left:60vw;
+}
+.childBooks{
+    margin-bottom: 5vw;
+    margin-top: 2vw;
+   left:55vw;
+    gap:4vw;
+    position: relative;
+    display: flex;
+    
+}
+.childrenPart{
+    position: absolute;
+    margin-top: 3vw;
+    
+}
+.ffot{margin-top: 70vw;
+width: 100%;}

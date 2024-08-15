@@ -1,0 +1,104 @@
+.AdminBookPage {
+    padding-right: 2vw;
+}
+
+.PageTitle {
+    color: #000;
+
+    font-family: Inria Serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-left: 5vw;
+    margin-top: 3vw;
+}
+
+.tableHeading {
+    color: #000;
+    padding-right: 3vw;
+    font-family: Inria Serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+}
+
+.BookList {
+    margin-left: 5.5vw;
+    margin-top: 2vw;
+    border: 3px solid #9D8B70;
+    border-radius: 2vw;
+    background: #FFF;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+}
+
+.bookTable {
+    margin-left: 4vw;
+    width: 75vw;
+
+}
+
+.tableData {
+    color: #000;
+    font-family: Inria Serif;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+
+.Trashpic {
+    position: relative;
+    margin-left: 65vw;
+    margin-top: -54vw;
+
+}
+
+.tpic {}
+
+
+.etext {
+    position: relative;
+
+    color: #000;
+    font-family: Inria Serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+.pic-text {
+    display: flex;
+    gap: 4vw;
+}
+
+.loadmore {
+    color: #413F3F;
+    font-family: Inria Serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.NewButtonCont {
+    display: flex;
+    background: #9D8B70;
+    color: white;
+    width: 20vw;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    margin-top: 5vh;
+    margin-left: 40vw;
+}
+.NewButton{
+    width: 100%;
+    height: 100%;
+    font-size: 1vw;
+}

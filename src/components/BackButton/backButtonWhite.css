@@ -1,0 +1,26 @@
+.BackButtonWhite{
+    display: flex;
+    width: 130px;
+    height: 2.7vw;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 28px;
+    border: 2px solid white;
+    color: white;
+    /* top: 0; */
+    /* right: 0; */
+
+}
+.back_white{
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    font-family: Inria Serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+

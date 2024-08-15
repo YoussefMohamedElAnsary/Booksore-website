@@ -1,0 +1,273 @@
+.Statsmain{
+    background-color: #EEE2E1;
+}
+
+.Statsheading{
+    color: #000;
+    font-family: Inria Serif;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-left: 8vw;
+    margin-top: 2vw;
+
+}
+
+.Performancebox{
+    border-radius: 20px;
+    border: 3px solid #9D8B70;
+    background: #FFF;
+    width: 1266px;
+    height: 203px;
+   flex-shrink: 0;
+   margin-left: 8vw;
+}
+
+.TitleText
+{
+    margin-left: 2vw;
+    margin-top: 2vw;
+    color: #000;
+    font-family: Inria Serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.percentage
+{   
+  color: #9D8B70;
+  font-family: Inria Serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-block;
+
+}
+
+.text 
+{
+    color: #000;
+  font-family: Inria Serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.Parts{
+    margin-right: 4vw;
+    margin-left: 5vw;
+    margin-top: 2vw;
+    display: inline-block;
+}
+
+.StatsBox
+{   width: 1266px;
+    height: 519px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 3px solid #9D8B70;
+    background: #FFF;
+    margin-left: 8vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.Shape1 , .Shape2 , .Shape3 , .Shape4 , .Shape5 , .Shape6 ,.Shape7
+{
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 1vw;
+    margin-top: 2vw;
+    background: linear-gradient(180deg, #563725 0%, #66531B 34.69%, #9D8B70 66.88%, rgba(157, 139, 112, 0.29) 100%);
+}
+
+.Shape1
+{
+    width: 114px;
+height: 146px;
+flex-shrink: 0;
+}
+
+.Shape2{
+    width: 114px;
+height: 217px;
+flex-shrink: 0;
+}
+
+.Shape3
+{
+    width: 114px;
+height: 140px;
+flex-shrink: 0;
+}
+
+.Shape4{
+    width: 114px;
+height: 186px;
+flex-shrink: 0;
+}
+
+.Shape5{
+    width: 114px;
+height: 263px;
+flex-shrink: 0;
+}
+
+.Shape6{
+    width: 114px;
+height: 107px;
+flex-shrink: 0;
+}
+
+.Shape7{
+    width: 114px;
+height: 186px;
+flex-shrink: 0;
+}
+
+.TopBooksBox
+{
+    border-radius: 20px;
+    border: 3px solid #9D8B70;
+    background: #FFF;
+    width: 1266px;
+    height: 387px;
+    flex-shrink: 0;
+    margin-left: 8vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+.Shapeparts
+{
+    margin-left:3.5vw ;
+    margin-top: 3vw;
+    display: inline-block;
+}
+
+.ChartText
+{
+    color: #000;
+    font-family: Inria Serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.TopBookspart{
+    display: flex;
+   margin-top: 1vw;
+}
+
+.topbookpercent
+{
+    color: #9D8B70;
+  font-family: Inria Serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-block;
+  margin-left: 6vw;
+  margin-top: 1vw;
+}
+
+
+
+.SList
+{
+    /* display: inline-flex;  */
+    padding: 7px 11px 9px 19px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 10px; 
+    border: 3px solid #9D8B70; 
+    margin-left:70vw;
+    /* top:-5vw; */
+    /* display: relative; */
+    
+}
+
+.List
+{
+    position: relative;
+    margin-top: -2.7vw;
+    margin-bottom: 2vw;
+}
+
+.Organize
+{
+    position: absolute;
+
+}
+
+.aboutstats
+{
+    width: 111px;
+height: 34px;
+color: #FFF;
+font-family: Inria Serif;
+font-size: 20px;
+font-weight: 400;
+position: absolute;
+background: #9D8B70;
+border-radius: 20px;
+text-align: center;
+margin-left: 70vw;
+margin-top: 2vw;
+
+}
+
+.barchart
+{
+    margin-top: 4vw;
+}
+
+.General
+{
+    background: #EEE2E1;
+    width: 119px;
+    height: 38px;
+    border-radius: 20px 0px 0px 20px;
+    border: 2px solid  #9D8B70;
+    justify-content: center;
+    color: #000; 
+    font-family: Inria Serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+ 
+ .Sales 
+{
+    background: #EEE2E1;
+    width: 119px;
+    height: 38px;
+    border-radius: 0px 20px 20px 0px;
+    border: 2px solid  #9D8B70;
+    justify-content: center;
+    /* color: #FFF; */
+    font-family: Inria Serif;
+    font-size: 20px;
+    font-weight: 400;
+} 
+
+.Typechart
+{
+    position: absolute;
+    margin-top: 2vw;
+    margin-left: 3vw;
+}
+
+
+
+.Sales:hover , .General:hover {
+    background:  #9D8B70;
+    color: #FFF; 
+}

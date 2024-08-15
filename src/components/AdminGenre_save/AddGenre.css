@@ -1,0 +1,108 @@
+.Addmain{
+    background-color: #EEE2E1;
+}
+
+.Addheading{
+    color: #000;
+    font-family: Inria Serif;
+    font-size:2.2vw;
+    font-weight: bold;
+    text-decoration-line: underline;
+    margin-left: 8VW;
+    margin-top: 2vw;
+    
+}
+
+.Addfilled-box{
+    width: 80VW;
+    height :fit-content;
+    background: #9D8B70;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 9vw;
+    margin-top:3vw;  
+    padding-left: 7vw;
+    padding-top: 3vw;
+    padding-bottom: 5%;
+}
+
+.addCatcontainer-save{
+    height: 12%;
+    width: 40%;
+   position: relative;
+}
+.AddinputCat{
+    font-family: Inria Serif;
+    font-size: 26px;
+    font-weight: 400;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: #bbaf9c;
+    background-color: transparent;
+    position: relative;
+   
+}
+.AddinputCat:focus{
+    border:#bbaf9c;
+}
+.AddinputCat::placeholder{
+    color:#EEE2E1;
+    padding-left: 1vw;
+}
+
+
+.Addrow  .Addcategoryitem{
+    display: inline-block;
+
+    margin-right:7VW;
+}
+.Addline{ 
+    width: 60vw;
+    color:#bbaf9c;
+
+
+    margin-right:8VW;
+}
+.linee{ 
+    width: 62vw;
+    color:#bbaf9c;
+
+    margin-top: 1.8VW;
+    margin-bottom: 1.8VW;
+}
+
+.AddBox .Addrectangle{
+    margin-left: 7VW;
+    margin-top: -22vw;
+    border: 4px solid;
+    border-color: #9d8b70;
+    width: 80VW;
+    height :26VW;
+}
+
+.Addbuttonsactions{
+    display:inline-block;
+    margin-left: 16VW;
+    position: relative;
+    top: -2Vw;
+}
+.Addbuttonsactions .Addremovebutton, .Addbuttonsactions .Addsavebutton{
+    background-color:#EEE2E1;
+}
+.Addsavebutton , .Addremovebutton{
+    width: 12VW;
+    height: 4VW;
+    border-radius: 32Vw;
+    border: 0.3VW solid #9D8B70;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   
+    color: black;
+    font-family: Inria Serif;
+    font-size: 2VW; 
+    margin-right: 2VW;
+}
+.Addsavebutton:hover , .Addremovebutton:hover{
+    text-decoration: underline white;
+    background-color: #9D8B70;
+    color: white;
+}
+

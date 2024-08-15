@@ -1,0 +1,111 @@
+.page {
+
+    background-color: #EEE2E1;
+}
+
+.booksrow{
+display: flex;
+margin-top: 2vw;
+margin-left: 20vw;
+}
+.displaybooks{
+    width: 70vw;
+    margin-right: 3vw;
+    margin-left: 15vw;
+    margin-top: -43vw;
+    margin-bottom: 180px;
+
+}
+.book{
+
+    margin-right: 6vw;
+}
+.BackButtonn{
+
+margin-left: 85vw;
+margin-top: 2vw;
+}
+
+.genrelist
+{
+background: #F7F1F0;
+width: 18vw ;
+margin-left: 7vw;
+border-radius: 20px;
+margin-top:3vw;
+margin-bottom: 40vh ;
+position: relative;
+
+}
+.ay7aga{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border-width: 0.5VW;
+    border-style: solid;
+    border-color: #9D8B70;
+    height: 42vw;
+    padding: 0;
+}
+
+.genrelistcontainer{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border-width: 0.5VW;
+    border-style: solid;
+    border-color: #9D8B70;
+    height: 42vw;
+    padding: 0;
+}
+.genreee{
+    display: flex;
+    align-items: baseline;
+    margin-right: 3vw;
+}
+.listname{
+
+    color: #000;
+
+font-family: Inria Serif;
+font-size: 2vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+}
+.line{
+    width: 15vw;
+    height: 0.2vw;
+    margin-left:1.6vw;
+    background: #9D8B70;
+    margin-bottom:-1.2vw ;
+}
+.genrename{
+
+color: #000;
+font-family: Inria Serif;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+/* line-height: normal; */
+/* text-transform: capitalize; */
+margin-bottom: -2.9vw;
+margin-left: -2.5vw;
+}
+.recymen{
+margin-left: 18.5vw;
+position: absolute;
+margin-top:-0.2w ;
+    
+}
+.recshmal{
+position: absolute; 
+margin-top: 38vw;
+margin-left: 3vw;
+}
+.checkaya{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}

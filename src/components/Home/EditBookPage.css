@@ -1,0 +1,144 @@
+.book_page_cont{
+    padding-top: 2vh;
+    padding-left: 6vw;
+    background: #EEE2E1;
+    display: flex;
+    justify-content:left;
+    margin-bottom: 10vh;
+}
+
+.edit_book_card_cont{
+    margin-right: 10vw;
+}
+
+.book_page_head{
+    font-size: 3vw;
+    margin-bottom: 5vh;
+    text-decoration: underline;
+    font-family: Inria Serif;
+}
+
+.book_cover_page{
+    width: 20vw;
+    height: 50vh;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0.25vw;
+}
+
+.add_book_cover_page{
+    /* width: 10vw;
+    height: 30vh; */
+    margin-top: 20vh;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0.25vw;
+}
+
+
+.book_cover_cont{
+    width: 17vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit_book_cover{
+    font-size: 2vw;
+    margin-bottom: 7vh;
+    margin-top: 1vh;
+    font-family: Inria Serif;
+}
+
+.edit_book_page_buttons_cont{
+    font-family: Inria Serif;
+    font-size: 1.5vw;
+    width: 15vw;
+    height: 5vh;
+    background-color: #9D8B70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+    border-radius: 3vw;
+    color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.add_book_page_buttons:hover{
+    text-decoration: underline;
+}
+
+.edit_book_page_buttons:hover{
+    text-decoration: underline;
+}
+
+.book_details_cont{
+    margin-top: 15vh;
+}
+.book_details_item_cont{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.book_details_item_title{
+    font-size: 2vw;
+    font-family: Inria Serif;
+    margin-right: 2vw;
+}
+.input_book_details{
+    font-size: 1.25vw;
+    font-family: Inria Serif;
+    width: 20vw;
+    height: 1.75vw;
+    border-radius: 1.5vw;
+    padding-left:1vw;
+    padding-right:1vw;
+}
+
+.input_book_details:focus{
+    border: none;
+    outline: none;
+}
+
+.input_book_desc{
+    font-size: 1vw;
+    font-family: Inria Serif;
+    width: 50vw;
+    height: 10vw;
+    border-radius: 1.5vw;
+    padding-left:1vw;
+    padding-right:1vw;
+    padding-top:0.5vw;
+    padding-right:0.5vw;
+    resize: none;
+}
+
+
+.input_book_desc:focus{
+    border: none;
+    outline: none;
+}
+
+.book_desc_item_cont{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.units{
+    color: gray;
+    font-size: 1.5vw;
+    font-family: Inria Serif;
+}
+
+.input_book_details_img{
+    font-size: 1.25vw;
+    font-family: Inria Serif;
+    width: 20vw;
+    height: 1.75vw;
+    border-radius: 1.5vw;
+    padding-left:1vw;
+    padding-right:1vw;
+    margin-bottom: 3vh;
+}

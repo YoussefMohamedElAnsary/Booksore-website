@@ -1,0 +1,53 @@
+.review_main_cont{
+    padding: 2vh;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60vw;
+    border-radius: 1vw;
+    border: 0.2vw solid #9B8A6E;
+    background: rgba(255, 255, 255, 0.50);
+    margin-left: 2vw;
+    margin-bottom: 3vh;
+}
+
+.username_cont{
+    font-size: 1.75vw;
+    font-weight: bold;
+}
+
+.review_content{
+    font-size: 1.5vw;
+    width: 45vw;
+}
+
+.likes_content_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.rating_cont {
+    display: flex;
+    align-items: center;
+    width: 6vw;
+    height: 6vh;
+    margin-top: 1vh;
+  }
+
+.rating_num{
+    margin-left: 1vw;
+    font-size: 1.5vw;
+}
+
+.star_cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2vw;
+  height: 2vh;
+}
+
+.star_cont img {
+  width: 100%;
+  height: auto; 
+}

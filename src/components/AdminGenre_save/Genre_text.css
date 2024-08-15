@@ -1,0 +1,12 @@
+.nameOfGenre{
+    color: #fff;
+    font-family: Inria Serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: normal; */
+    text-transform: capitalize;
+}
+/* .nameOfGenre:hover{
+    text-decoration: underline white;
+} */

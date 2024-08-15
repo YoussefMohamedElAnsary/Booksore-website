@@ -1,0 +1,71 @@
+.book_cont{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    line-height: normal;
+    border: 2px solid #9B8A6E;
+    box-shadow: 5px 5px 1vw rgba(0, 0, 0, 0.1);
+    background-color: white;
+    white-space: normal;
+    transition: transform 0.3s ease;
+}
+.book_cont:hover{
+    background-color: #9d8b70;
+    color: white;
+    transform: scale(1.2);
+    
+}
+
+.book_cover{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 9vw;
+    height: 17vh;
+}
+
+.book_cover img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 3%;
+    
+}
+.book_title{
+    margin-top: 0.5vh;
+    left: 0;
+    padding-left: 0%;
+    font-family: Inria Serif;
+    width: 10vw;
+    line-height: normal;
+    font-size: 1.1vw;
+    text-align: center;
+}
+
+.author_price_container{
+    display: flex;
+    justify-content: space-evenly;
+    color: #413F3F;
+    font-family: Inria Serif;
+    font-size: 1.2vw;
+    color: lightgrey;
+    margin-top: 0.5vh;
+}
+
+.author{
+    font-style: italic;
+}
+
+.currency_book{
+    font-size: 0.7vw;
+    font-weight: bold;
+}
+
+.book_price_book{
+    
+}
+
+.price_currency_cont{
+    margin-left: 1vw;
+}
